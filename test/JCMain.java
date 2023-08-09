@@ -12,7 +12,6 @@ public class JCMain {
     public static void main(String[] args) throws ClassNotFoundException, IOException {
         WebTransportServerEngine
                 .create()
-                .setAuthKey("your key")
                 .setIpPort("127.0.0.1",10001)
                 .setHandle("/test",JcHandle.class)
                 .setTimeout(40000)
