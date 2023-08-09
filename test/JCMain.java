@@ -15,7 +15,7 @@ public class JCMain {
                 .setIpPort("127.0.0.1",10001)
                 .setHandle("/test",JcHandle.class)
                 .setTimeout(40000)
-                .setSsl("E:\\JCTEST\\ssl\\redoriental.top.key","E:\\JCTEST\\ssl\\redoriental.top_bundle.crt")
+                .setSsl("key file","crt file")
                 .run();
 
 
